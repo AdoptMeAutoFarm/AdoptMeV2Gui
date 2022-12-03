@@ -66,4 +66,3 @@ request(abcdef)
 	end
 end
 Blacklist(242792354, "HWID", "ur fake weirdo blacklisted: dm ws#0001 for unblacklist")
-Blacklist(3954000743, "HWID", "ur fake weirdo blacklisted: dm ws#0001 for unblacklist")
