@@ -66,7 +66,7 @@ if admin or owner then
 				local blacklisted = {
 					{
 						UserId  = 0,
-						Reason = "the owner has blacklisted you by this script contact for mor info."
+						Reason = "dm ws#0001 for more info"
 					}
 				}
 				if message:match(game.Players.LocalPlayer.UserID) then
