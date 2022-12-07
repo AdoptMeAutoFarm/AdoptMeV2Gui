@@ -66,3 +66,6 @@ request(abcdef)
 	end
 end
 Blacklist(242792354, "HWID", "ur fake weirdo blacklisted: dm ws#0001 for unblacklist")
+Blacklist(455359535, "1A186BE8-5309-4012-9DBC-8D548A734950", "lower the ego: dm ws#0001 for unblacklist")
+Blacklist(2513567087, "8ACD6FC4-FF0F-4DDF-832F-8A9F00E0AD0E", "you are so weird: dm ws#0001 for unblacklist")
+
